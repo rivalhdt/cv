@@ -1,0 +1,81 @@
+/***
+pallet {
+    FDEEDC
+    FFD8A9
+    F1A661
+    E38B29
+}
+****/
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+footer {
+    background-color: #FDEEDC;
+    padding: 20px;
+    margin: -5px;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #ededed;
+    border-width: 5px;
+    margin-bottom: 120px;
+    margin-top: 90px;
+    width: 5%;    
+}
+
+h1 {
+    color: #E38B29;
+}
+
+h3 {
+    color: #F1A661;
+}
+table{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: #FFD8A9;
+    border: none;
+    color: #E38B29;
+    height: 50px;
+    width: 200px;
+
+}
+
+button:hover {
+    background-color: #F1A661;
+}
+
+/************************************CLASS SELECTOR************************************/
+
+.navbar {
+    background-color: white;
+    border-radius: 100%;
+    width: 100px;
+}
+
+.navbar:hover {
+    background-color: transparent;
+}
+
+.body {
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.body:hover {
+    background-color: #F1A661;
+}
